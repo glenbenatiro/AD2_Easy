@@ -1,0 +1,7 @@
+﻿  AD2_Easy.cpp
+  main.cpp
+  Generating Code...
+AD2_Easy.obj : error LNK2019: unresolved external symbol __imp__FDwfGetLastErrorMsg referenced in function "public: bool __thiscall AD2_Easy::isConnected(char *)" (?isConnected@AD2_Easy@@QAE_NPAD@Z)
+AD2_Easy.obj : error LNK2019: unresolved external symbol __imp__FDwfDeviceOpen referenced in function "public: bool __thiscall AD2_Easy::isConnected(char *)" (?isConnected@AD2_Easy@@QAE_NPAD@Z)
+lib\dwf.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Glen\Desktop\AD2_Easy\Debug\AD2_Easy.exe : fatal error LNK1120: 2 unresolved externals
