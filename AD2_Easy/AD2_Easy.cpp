@@ -34,7 +34,7 @@ void AD2_Easy::setDir(int port, bool dir)
 	std::string portStr = std::bitset<16>(portInt).to_string();
 
 	// manipulate specific port to set direction
-	portStr[15 - port] = static_cast<char>(dir + '0');
+	portStr[15-port] = static_cast<char>(dir + '0');
 
 	// change string back to unsigned int
 	portInt = std::stoi(portStr, nullptr, 2);
